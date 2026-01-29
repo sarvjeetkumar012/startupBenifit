@@ -13,14 +13,14 @@ A full-stack web application providing exclusive SaaS deals and benefits for ear
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
 - [Application Flow](#application-flow)
-- [Authentication & Authorization](#authentication--authorization)
+- [Authentication and Authorization](#authentication-and-authorization)
 - [Deal Claiming Flow](#deal-claiming-flow)
 - [Frontend-Backend Interaction](#frontend-backend-interaction)
-- [Installation & Setup](#installation--setup)
+- [Installation and Setup](#installation-and-setup)
 - [API Documentation](#api-documentation)
 - [Known Limitations](#known-limitations)
 - [Production Improvements](#production-improvements)
-- [UI & Performance Considerations](#ui--performance-considerations)
+- [UI and Performance Considerations](#ui-and-performance-considerations)
 
 ## 🎨 Overview
 
@@ -172,7 +172,7 @@ User navigates to dashboard → Views claimed deals →
 Sees claim status → Accesses claim codes (if approved)
 ```
 
-## 🔐 Authentication & Authorization
+## 🔐 Authentication and Authorization
 
 ### JWT-Based Authentication
 
@@ -367,7 +367,7 @@ const claim = await Claim.create({ user: userId, deal: dealId });
 - Loading states
 - Form states
 
-## 📦 Installation & Setup
+## 📦 Installation and Setup
 
 ### Prerequisites
 - Node.js 18+
@@ -639,7 +639,7 @@ Response: { success, count, data: [claims] }
    - Fuzzy matching
    - Search history
 
-## 🎨 UI & Performance Considerations
+## 🎨 UI and Performance Considerations
 
 ### Animation Strategy
 
